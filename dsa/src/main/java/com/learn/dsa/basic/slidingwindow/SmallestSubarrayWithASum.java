@@ -58,29 +58,29 @@ public class SmallestSubarrayWithASum {
         return smallestLength;
     }
 
-    public static int smallestLengthMine(int [] arr, int s ){
-        int wSum=0;
-        int wLength=Integer.MAX_VALUE;
-        int minWidth=0;
-        int wStart=0;
-        for(int i=0; i<arr.length; i++){
-            wSum = wSum+arr[i];
-            wLength=Math.abs(wStart- (i+1));
-            if(wSum == s){
-                minWidth = Math.min(minWidth, wLength);
-            }
-            if(wSum>s){
-                wSum= wSum-arr[wStart];
-                if(wSum==s){
-                    minWidth=Math.abs(wStart+1-(i+1));
-                    minWidth=Math.min(minWidth,wLength);
-                }
+   public static int smallestSubarrayWithSum(int[] arr, int s) {
+    int minLength = Integer.MAX_VALUE; // <-- Fix #1: Initialize to a large value
+    int windowSum = 0;
+    int windowStart = 0;
 
-                wStart++;
-            }
+    for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
+        // Expand the window by adding the element from the right
+        windowSum += arr[windowEnd];
+
+        // This is the key!
+        // Keep shrinking the window from the left as long as the sum is >= s
+        while (windowSum >= s) { // <-- Fix #2: Use a 'while' loop, not 'if'
+            // We have a valid window. Is it the smallest we've seen?
+            minLength = Math.min(minLength, windowEnd - windowStart + 1);
+
+            // Shrink the window
+            windowSum -= arr[windowStart];
+            windowStart++;
         }
-
-        return minWidth;
-
     }
+
+    // If minLength was never updated, it means no valid subarray was found.
+    return minLength == Integer.MAX_VALUE ? 0 : minLength;
+}
+
 }
