@@ -1,0 +1,91 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SmallestSubarrayWithASum",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.basic.slidingwindow.SmallestSubarrayWithASum",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowBasic",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.basic.slidingwindow.SlidingWindowBasic",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "JwtTokenService",
+            "request": "launch",
+            "mainClass": "com.amwell.faqsupport.util.JwtTokenService",
+            "projectName": "faqsupport"
+        },
+        {
+            "type": "java",
+            "name": "KeyGenerator",
+            "request": "launch",
+            "mainClass": "com.amwell.faqsupport.util.KeyGenerator",
+            "projectName": "faqsupport"
+        },
+        {
+            "type": "java",
+            "name": "JwtExample",
+            "request": "launch",
+            "mainClass": "com.amwell.faqsupport.util.JwtExample",
+            "projectName": "faqsupport"
+        },
+        {
+            "type": "java",
+            "name": "FaqsupportApplication",
+            "request": "launch",
+            "mainClass": "com.amwell.faqsupport.FaqsupportApplication",
+            "projectName": "faqsupport"
+        },
+        {
+            "type": "java",
+            "name": "FactorialOfANumber",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.numbers.FactorialOfANumber",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "ScreenAlive",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.ScreenAlive",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "LargestElementInTheArray",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.basic.arrays.LargestElementInTheArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.basic.arrays.BubbleSort",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DsaApplication<dsa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.learn.dsa.DsaApplication",
+            "projectName": "dsa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

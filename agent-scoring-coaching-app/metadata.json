@@ -1,0 +1,5 @@
+{
+  "name": "Agent Scoring & Coaching",
+  "description": "An AI-powered system to analyze customer service call transcripts, evaluate agent performance against specific KPIs, and provide actionable feedback and coaching tips for managers.",
+  "requestFramePermissions": []
+}

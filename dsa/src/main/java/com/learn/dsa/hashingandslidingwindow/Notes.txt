@@ -1,0 +1,22 @@
+--July 13 2025
+
+Hashing
+	Rolling hash is very prominent for creating hash
+	
+	2 data structures used while solving problems
+	
+	
+	Set and Map 
+	
+	Set of Homogeneos values 
+	
+	Map is key value pair data 
+	
+	HashTable
+
+
+
+Sliding Window
+
+	
+

@@ -1,0 +1,17 @@
+  body{
+
+            font-family:'Times New Roman', Times, serif;
+            margin:20px;
+            text-align: center;
+            background-color: peachpuff;
+            color: black;
+        }
+        h1{
+            color: cornsilk;
+            
+        }
+        button{
+            border-color: blue;
+            font-weight: 500;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
