@@ -27,7 +27,7 @@ public class SmallestSubarrayWithASum {
     public static void main(String[] args){
         int[] arr = {2, 1, 5, 2, 3, 2, 7};
         int s = 7;
-        System.out.println(smallestLengthMine(arr, s));
+        System.out.println(smallestSubarrayWithSum(arr, s));
     }
 
     static int smallestLength(int [] arr, int s ){
