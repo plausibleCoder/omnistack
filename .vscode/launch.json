@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RulesmanagementApplication",
+            "request": "launch",
+            "mainClass": "com.docgen.rulesmanagement.RulesmanagementApplication",
+            "projectName": "rulesmanagement"
+        },
+        {
+            "type": "java",
+            "name": "MarkdownToWordConverter",
+            "request": "launch",
+            "mainClass": "com.example.demo.service.MarkdownToWordConverter",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithKDifferentCharacters",
+            "request": "launch",
+            "mainClass": "com.learn.dsa.basic.slidingwindow.LongestSubstringWithKDifferentCharacters",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "SmallestSubarrayWithASum",
             "request": "launch",
             "mainClass": "com.learn.dsa.basic.slidingwindow.SmallestSubarrayWithASum",

@@ -56,6 +56,11 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		       <dependency>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-docx-converter</artifactId>
+            <version>0.64.8</version>
+        </dependency>
 	<!-- Spring Security -->
 <dependency>
     <groupId>org.springframework.boot</groupId>
